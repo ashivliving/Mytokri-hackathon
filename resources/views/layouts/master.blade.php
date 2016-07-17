@@ -28,9 +28,7 @@
 				
 			</div>
 		</div>
-
-		<h1 class="text-center">{{$title}}</h1>
-
+		@yield('title')
 		<div class="search-wrap stripe-white">
 			<div class="row">
 				<form action="/search" method="get">
