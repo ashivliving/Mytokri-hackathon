@@ -14,3 +14,5 @@
 Route::get('/', 'homeController@index');
 
 Route::get('/search', 'homeController@search');
+
+Route::get('/coupon', 'couponController@index');
